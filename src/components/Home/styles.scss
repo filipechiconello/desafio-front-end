@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 955px;
+  height: 680px;
+  background: aliceblue;
+}
+
+.container-search-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding-top: 5rem;
+
+  .btn-search {
+    display: flex;
+    justify-content: end;
+    margin-right: 6rem;
+
+    button {
+      width: 7.5rem;
+      height: 2rem;
+      background-color: white;
+      border: 1px solid black;
+
+      font-size: 1rem;
+    }
+  }
+}
+
+.container-inputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  label {
+    width: 9rem;
+  }
+
+  input {
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+.transacionado {
+  margin-top: -1.1rem;
+}
+
+.container-table {
+  margin-left: 4.5rem;
+  padding: 2rem;
+
+  .saldos {
+    display: flex;
+    gap: 10rem;
+    width: 90%;
+    margin-bottom: 0.25rem;
+    padding: 0.75rem;
+    border: 1px solid black;
+
+    font-size: 1.25rem;
+  }
+}
+
+table {
+  width: 90%;
+  border: 1px solid black;
+
+  thead {
+    th {
+      color: #000;
+      font-weight: semi-bold;
+      text-align: left;
+      font-size: 16px;
+      line-height: 24px;
+      border: 1px solid black;
+      padding-left: 0.25rem;
+    }
+  }
+
+  td {
+    padding: 0.5rem;
+    font-size: 16px;
+    color: black;
+    border: 1px solid black;
+  }
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+
+  span {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  div {
+    display: flex;
+    gap: 1rem;
+
+    button {
+      width: 2rem;
+      height: 2rem;
+      background: white;
+      border: 1px solid black;
+      color: black;
+    }
+  }
+}
